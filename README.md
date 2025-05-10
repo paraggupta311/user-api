@@ -42,8 +42,17 @@ Installation & Setup
 
 Access the API at: http://127.0.0.1:8000/api/users
 
-API Usage
-Endpoint: /api/users/
+API Endpoints
+
+1) User APIs
+    Method          Endpoint                Description 
+    GET             /api/users/             List all users
+    POST            /api/users/             Create a new user in Json format
+    GET             /api/users/{id}/        Get user details for a particular id
+    PUT             /api/users/{id}/        Update the details for a particular user.
+    DELETE          /api/users/{id}/        Delete a particular user.
+
+
 
 Query Param	                    Description
 name	                        Filter by first or last name (?name=jam)
