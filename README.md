@@ -24,7 +24,8 @@ Tech Stack
 Installation & Setup
     1) CLone the Repository
             - https://github.com/paraggupta311/user-api.git
-            - cd user-api
+
+            - cd userdata
 
     2) Install Dependencies
             - pip install -r requirements.txt
